@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "/Users/michaelwooldridge/.local/share/virtualenvs/exotic-pet-care-tracker-server-AuaDlriy/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+
+    // Added
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--django-settings-module=<folder name>.settings",
+    ],
+}
