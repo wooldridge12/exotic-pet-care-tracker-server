@@ -1,0 +1,20 @@
+[
+    {
+        "model": "exoticPetCareTrackerapi.bath",
+        "pk": 1,
+        "fields": {
+            "duration": 10,
+            "time": "10:30:00",
+            "notes": "Loony hated the bath today."
+        }
+    },
+    {
+        "model": "exoticPetCareTrackerapi.bath",
+        "pk": 2,
+        "fields": {
+            "duration": 20,
+            "time": "12:35:00",
+            "notes": "Loony was better today but just stood there."
+        }
+    }
+]
