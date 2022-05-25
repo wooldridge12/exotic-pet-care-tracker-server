@@ -8,4 +8,12 @@
         "--load-plugins=pylint_django",
         "--django-settings-module=<folder name>.settings",
     ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "exotic-pet-care-tracker",
+            "database": "db.sqlite3"
+        }
+    ],
 }
