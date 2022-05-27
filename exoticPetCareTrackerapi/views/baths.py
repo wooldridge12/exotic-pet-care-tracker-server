@@ -16,8 +16,8 @@ class BathView(ViewSet):
         
         serializer = BathSerializer(
             baths, many=True, context={'request': request}
-        return Response(serializer.data)
         )    
+        return Response(serializer.data)
         
         
 class BathSerializer(serializers.ModelSerializer):
