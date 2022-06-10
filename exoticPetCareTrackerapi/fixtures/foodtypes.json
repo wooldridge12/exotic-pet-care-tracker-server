@@ -1,0 +1,106 @@
+[
+    {
+        "model": "exoticPetCareTrackerapi.foodtype",
+        "pk": 1,
+        "fields": {
+            "label": "Meat",
+            "food_type":  "Crickets"
+        }
+    },
+    {
+        "model": "exoticPetCareTrackerapi.foodtype",
+        "pk": 2,
+        "fields": {
+            "label": "Meat",
+            "food_type":  "Kingworms"
+        }
+    },
+    {
+        "model": "exoticPetCareTrackerapi.foodtype",
+        "pk": 3,
+        "fields": {
+            "label": "Meat",
+            "food_type":  "Waxworms"
+        }
+    },
+    {
+        "model": "exoticPetCareTrackerapi.foodtype",
+        "pk": 4,
+        "fields": {
+            "label": "Meat",
+            "food_type":  "Earthworms"
+        }
+    },
+    {
+        "model": "exoticPetCareTrackerapi.foodtype",
+        "pk": 5,
+        "fields": {
+            "label": "Meat",
+            "food_type":  "Cockroaches"
+        }
+    },
+    {
+        "model": "exoticPetCareTrackerapi.foodtype",
+        "pk": 6,
+        "fields": {
+            "label": "Meat",
+            "food_type":  "Locus"
+        }
+    },
+    {
+        "model": "exoticPetCareTrackerapi.foodtype",
+        "pk": 7,
+        "fields": {
+            "label": "Meat",
+            "food_type":  "Butterworms"
+        }
+    },
+    {
+        "model": "exoticPetCareTrackerapi.foodtype",
+        "pk": 8,
+        "fields": {
+            "label": "Meat",
+            "food_type":  "Silkworms"
+        }
+    },
+    {
+        "model": "exoticPetCareTrackerapi.foodtype",
+        "pk": 9,
+        "fields": {
+            "label": "Meat",
+            "food_type":  "Phoenixworms"
+        }
+    },
+    {
+        "model": "exoticPetCareTrackerapi.foodtype",
+        "pk": 10,
+        "fields": {
+            "label": "Meat",
+            "food_type":  "Dubia roaches"
+        }
+    },
+    {
+        "model": "exoticPetCareTrackerapi.foodtype",
+        "pk": 11,
+        "fields": {
+            "label": "Meat",
+            "food_type":  "Morioworms"
+        }
+    },
+    {
+        "model": "exoticPetCareTrackerapi.foodtype",
+        "pk": 12,
+        "fields": {
+            "label": "Meat",
+            "food_type":  "Mealworms"
+        }
+    },
+    {
+        "model": "exoticPetCareTrackerapi.foodtype",
+        "pk": 13,
+        "fields": {
+            "label": "Meat",
+            "food_type":  "Superworms"
+        }
+    }
+]
