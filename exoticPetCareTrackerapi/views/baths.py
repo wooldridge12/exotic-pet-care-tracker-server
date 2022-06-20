@@ -18,6 +18,20 @@ class BathView(ViewSet):
             baths, many=True, context={'request': request}
         )    
         return Response(serializer.data)
+    
+    def create(self, request):
+        
+        bath = Bath()
+        bath.duration = request.data["duration"]
+        bath.time = request.data["time"]
+        bath.notes = request.data["notes"]
+        
+        try:
+            bath.save()
+            serializer = BathSerializer(bath, context={'request': request})
+            return Response(serializer.data)
+        except ValidationError as ex:
+            return Response({"reason": ex.message}, status=status.HTTP_400_BAD_REQUEST)
         
         
 class BathSerializer(serializers.ModelSerializer):
