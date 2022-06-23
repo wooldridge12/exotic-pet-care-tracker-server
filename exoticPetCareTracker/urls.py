@@ -15,12 +15,13 @@ Including another URLconf
 """
 from django.urls import path
 from django.conf.urls import include
-from exoticPetCareTrackerapi.views import BathView
+from exoticPetCareTrackerapi.views import BathView, FoodTypeView
 from rest_framework import routers
 
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'baths', BathView, 'bath')
+router.register(r'foodtypes', FoodTypeView, 'foodtype')
 
 urlpatterns = [
     path('', include(router.urls)),
